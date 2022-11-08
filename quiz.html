@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Document</title>
+    <style>
+        .values {
+            display: flex;
+            flex-direction: row;
+            float: right;
+            margin-right: 20px;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        .yesno {
+            display: flex;
+            flex-direction: column;
+            padding-left: 15px;
+        }
+        .yesno input {
+            font-family: 'Comfortaa';
+        }
+        .yesno input:hover {
+            box-shadow: 1px 2px 3px #D4DADE;
+            transition: 0.6s;
+        }
+    </style>
+</head>
+<body>
+    <div class="marq">  
+        <form action="#">
+            <div class="values">
+                <label for="quiz">Вам нравится путешествовать?</label>
+                <div class="yesno">
+                    <div class="Yes"><input type="radio" name="quiz" id="yes">Дa</div>
+                    <div class="No"><input type="radio" name="quiz" id="no">Нет</div>
+                    <input type="reset" value="Сбросить" style="margin-top: 15px; height: 35px; border-radius: 50px; border: none">
+                </div>
+                
+            </div>
+        </form>
+    </div>
+</body>
+</html>
